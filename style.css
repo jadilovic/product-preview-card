@@ -9,7 +9,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,7 +22,6 @@ body {
 .card {
 	min-width: 600px;
 	max-width: 39vw;
-	height: 54vh;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -105,13 +104,13 @@ button {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.attribution {
+footer {
 	position: absolute;
 	bottom: 0;
 	font-size: 15px;
 	text-align: center;
 }
-.attribution a {
+footer a {
 	color: hsl(228, 45%, 44%);
 }
 
